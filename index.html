@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Weather App</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-  <div class="container">
-    <h1>Weather App</h1>
-    <input type="text" id="cityInput" placeholder="Enter city name">
-    <button id="searchBtn">Search</button>
-    <div id="weatherInfo"></div>
-  </div>
-  <script src="script.js"></script>
-</body>
+    <head>
+        <title>Weather App</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Weather App</h1>
+
+            <form id="locationForm">
+                <div class="search-container">
+                    <label for="locationInput">Enter location:</label>
+                    <input type="text" id="locationInput" required />
+                </div>
+                <button type="submit">Get Weather</button>
+            </form>
+
+            <div id="loading" style="display: none">Loading...</div>
+            <div id="weatherData"></div>
+            <button class="github-button">
+                <a href="https://github.com/yurisokolovicz" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                    GitHub
+                </a>
+            </button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
 </html>
-   
