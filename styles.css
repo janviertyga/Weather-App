@@ -63,32 +63,6 @@ button[type='submit']:hover {
     background-color: #0056b3;
 }
 
-.github-button {
-    background-color: black;
-    color: white;
-    padding: 12px 12px;
-    font-size: 2rem;
-    border-radius: 20px;
-    border: none;
-    font-weight: 700;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.github-button a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-}
-
-.github-button ion-icon {
-    font-size: 45px;
-    margin-right: 8px;
-}
-
 #loading {
     text-align: center;
     margin-top: 20px;
@@ -140,11 +114,6 @@ button[type='submit']:hover {
 
     button[type='submit'] {
         padding: 20px 16px;
-    }
-
-    .github-button {
-        font-size: 3rem;
-        padding: 16px 24px;
     }
 
     body {
